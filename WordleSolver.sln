@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleSolver", "WordleSolver\WordleSolver.csproj", "{6C6D1C63-4471-477D-9BE0-8CCB525AC932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{9FFBD114-EEF4-4374-A314-D2580ABE278D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C6D1C63-4471-477D-9BE0-8CCB525AC932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6D1C63-4471-477D-9BE0-8CCB525AC932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6D1C63-4471-477D-9BE0-8CCB525AC932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6D1C63-4471-477D-9BE0-8CCB525AC932}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

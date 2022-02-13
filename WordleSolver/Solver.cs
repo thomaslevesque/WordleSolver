@@ -32,11 +32,19 @@ public class Solver
         var page = await _browser.NewPageAsync();
         await page.GotoAsync("https://www.nytimes.com/games/wordle/");
 
+        // Close GDPR banner if it's visible
         var closeGdpr = page.Locator("#pz-gdpr-btn-closex");
-        await closeGdpr.ClickAsync();
+        if (await closeGdpr.IsVisibleAsync())
+        {
+            await closeGdpr.ClickAsync();
+        }
 
+        // Close help dialog if it's visible
         var closeHelp = page.Locator("game-modal .overlay .close-icon");
-        await closeHelp.ClickAsync();
+        if (await closeHelp.IsVisibleAsync())
+        {
+            await closeHelp.ClickAsync();
+        }
 
         var words = _wordData.Words.ToList();
         var currentWord = BestStartingWords.PickRandom();

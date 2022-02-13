@@ -1,6 +1,6 @@
 ﻿# Wordle solver
 
-Automatically solves today's [Wordle](https://www.powerlanguage.co.uk/wordle/).
+Automatically solves today's [Wordle](https://www.nytimes.com/games/wordle/).
 
 ```
 Usage:

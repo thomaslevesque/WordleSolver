@@ -30,7 +30,7 @@ public class Solver
     public async Task Solve()
     {
         var page = await _browser.NewPageAsync();
-        await page.GotoAsync("https://www.powerlanguage.co.uk/wordle/");
+        await page.GotoAsync("https://www.nytimes.com/games/wordle/");
 
         var closeGdpr = page.Locator("#pz-gdpr-btn-closex");
         await closeGdpr.ClickAsync();
